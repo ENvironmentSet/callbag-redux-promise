@@ -1,0 +1,32 @@
+{
+  "name": "callbag-redux-promise",
+  "version": "0.1.0",
+  "description": "callbag-redux enhancer, inspired by redux-promise ",
+  "main": "build/lib/callbag-redux-promise.js",
+  "unpkg": "build/dist/callbag-redux-promise.js",
+  "module": "build/es/callbag-redux-promise.js",
+  "keywords": [
+    "callbag",
+    "reactive programming",
+    "callbag-redux",
+    "promise",
+    "redux",
+    "functional programming"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ENvironmentSet/callbag-redux-promise.git"
+  },
+  "author": "ENvironmentSet <herryseo1@gmail.com> (https://github.com/ENvironmentSet)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ENvironmentSet/callbag-redux-promise/issues"
+  },
+  "homepage": "https://github.com/ENvironmentSet/callbag-redux-promise#readme",
+  "devDependencies": {
+    "rollup": "^1.1.0"
+  }
+}
