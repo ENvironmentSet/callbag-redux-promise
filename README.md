@@ -59,7 +59,7 @@ import { enhance } from 'callbag-redux';
 import promiseEnhaner from 'callbag-redux-promise';
 
 function reducer(state = 0, action) {
-  if (action.type === 'INCREASE') {
+  if (action.type === 'INCREASE' && !action.error) {
     return state + action.payload;
   } else {
     return state;
